@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6i0168/v1
+canonical_location: https://kanripo.org/bkk/KR6i0168/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說呵雕阿那鋡經
+  identifiers:
+    alt_id:
+    - T14n0538
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0538.xml
+    old_id: T14n0538
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 聖
+  label: 聖
+  source_xml_id: wit5
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0168_000.yaml, hash: 'sha256:1c0c86279a53ffddde88db7aae51f9fe300c7e982bdbf0c7c6cf0b88b08b54b5'}
+  - {seq: 1, filename: KR6i0168_001.yaml, hash: 'sha256:deeaf8362472fe8a236fbb471c7f4cfcf2b8e860c1ce69a616c279fbfc226abd'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0168_001.markers.yaml, hash: 'sha256:f387f54afe627ca52f0e3b4054c59a40e777c6b3ee2045f65a9fba4d628409d4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0168_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 743
+  label: 佛說呵雕阿那鋡經
+  type: juan
+  level: 1
+hash: sha256:bf1d77a9c60d16994841f6a30eb1cdb85a4d535045a01cbdffa3cbef88c29095
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
